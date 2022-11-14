@@ -466,6 +466,26 @@ a {
   background-color: var(--amber-600);
 }
 
+.socials__item {
+	margin-bottom: 0.5em;
+}
+
+.socials {
+	list-style-type: disc;
+}
+
+.socials__link:hover,
+.socials__link:focus {
+	text-decoration: underline;
+	color: var(--amber-600);
+	outline-offset: 5px;
+}
+
+.socials-wrapper {
+	width: max-content;
+	margin: 0 auto;
+}
+
 @media (min-width: 640px) {
   .header__title {
     margin-bottom: 0;
