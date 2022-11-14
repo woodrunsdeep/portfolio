@@ -9,6 +9,7 @@ tech:
   - "JS"
 siteUrl: "https://woodrunsdeep-cloverly.netlify.app"
 repoUrl: "#"
+github: "https://github.com/woodrunsdeep/cloverly"
 ---
 
 ### Что сделано

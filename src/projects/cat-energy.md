@@ -10,6 +10,7 @@ tech:
   - "Gulp"
 siteUrl: "https://woodrunsdeep-cat-energy.netlify.app"
 repoUrl: "#"
+github: "https://github.com/woodrunsdeep/cat-energy"
 ---
 
 ### Что сделано

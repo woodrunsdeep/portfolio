@@ -10,6 +10,7 @@ tech:
   - "BEM"
 siteUrl: "https://woodrunsdeep-technomart.netlify.app"
 repoUrl: "#"
+github: "https://github.com/woodrunsdeep/technomart"
 ---
 
 ### Что сделано

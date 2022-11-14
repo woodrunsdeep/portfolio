@@ -58,6 +58,7 @@ select {
 a {
   text-decoration: none;
   color: inherit;
+  outline-offset: 5px;
 }
 
 /* Utility Classes */
@@ -346,6 +347,21 @@ a {
 
 .project-card__link:hover {
   text-decoration: underline;
+}
+
+.project-card__link-wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+.project-card__gh-link {
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	background-image: url("/images/icon-github.png");
+	margin-left: auto;
+	background-size: contain;
+	border-radius: 50%;
 }
 
 /* Project Page Styles */
