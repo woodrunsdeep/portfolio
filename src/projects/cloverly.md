@@ -7,7 +7,7 @@ tech:
   - "HTML"
   - "CSS"
   - "JS"
-siteUrl: "https://woodrunsdeep-cloverly.netlify.app"
+siteUrl: "https://cloverly.netlify.app"
 repoUrl: "#"
 github: "https://github.com/woodrunsdeep/cloverly"
 ---
