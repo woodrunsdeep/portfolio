@@ -1,14 +1,14 @@
 ---
-title: "Eleventy Portfolio"
+title: "Форма обратной связи"
 layout: "base.njk"
 ---
 
-<h2 class="heading--main text-center">Want to get in touch?</h2>
-<p class="contact__sub-heading text-center">I'm always open to new opportunities and projects. </p>
+<h2 class="heading--main text-center">Всегда открыт к знакомствам</h2>
+<p class="contact__sub-heading text-center"></p>
 
 <form class="form" name="contact" action="/success" method="POST" data-netlify="true">
   <div class="form__section">
-    <label class="form__label" for="yourName">Name</label>
+    <label class="form__label" for="yourName">Имя</label>
     <input class="form__input" name="name" type="text" id="yourName" required="true">
   </div>
   <div class="form__section">
@@ -16,8 +16,8 @@ layout: "base.njk"
     <input class="form__input" name="email" type="email"  id="yourEmail" required="true">
   </div>
   <div class="form__section">
-    <label class="form__label" for="message">Message</label>
+    <label class="form__label" for="message">Сообщение</label>
     <textarea class="form__input" name="message" id="message" rows="4" required="true"></textarea>
   </div>
-    <button class="form__button" type="submit">Let's talk</button>
+    <button class="form__button" type="submit">Отправить</button>
 </form>
