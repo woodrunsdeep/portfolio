@@ -3,6 +3,7 @@ title: "Kartuli Anbani"
 summary: "Приложение для изучения грузинского алфавита. Реализован базовый функционал, занимаюсь его расширением и улучшением. Проект на стадии разработки."
 image: "/images/kartuli-anbani.png"
 imageAlt: "Скриншот сайта Kartuli Anbani"
+isFeatured: true
 tech:
   - "11ty"
   - "JS"

@@ -1,4 +1,4 @@
-<article class="project-card">
+<article class="project-card {{ 'project-card--featured' if project.data.isFeatured }}">
   <div class="project-card__image-wrapper">
     {% EleventyImage project.data.image, project.data.imageAlt, "(min-width: 30em) 50vw, 100vw" %}
   </div>
