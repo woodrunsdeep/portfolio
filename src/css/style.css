@@ -181,11 +181,12 @@ a {
 .profile__card {
   display: flex;
   flex-direction: column;
+	justify-content: center;
   flex: 1;
 }
 
 .profile__text {
-  margin-bottom: 1rem;
+  margin-block: 0.5rem;
   color: var(--slate-600);
 }
 
@@ -445,6 +446,11 @@ a {
 
 .prose p {
   margin-bottom: 1.25rem;
+}
+
+.prose a {
+	text-decoration: underline;
+	color: coral;
 }
 
 /* About Styles */
