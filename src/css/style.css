@@ -82,7 +82,7 @@ a {
 .header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: baseline;
   flex-wrap: wrap;
   margin-bottom: 4rem;
   padding: 1rem 1.5rem;
@@ -145,6 +145,7 @@ a {
 .profile {
   display: flex;
   flex-direction: column;
+  gap: 30px;
 }
 
 .profile__image-wrapper picture {
@@ -180,7 +181,6 @@ a {
 .profile__card {
   display: flex;
   flex-direction: column;
-  padding: 4rem 0;
   flex: 1;
 }
 
@@ -337,6 +337,7 @@ a {
 }
 
 .project-card__summary {
+  flex-grow: 1;
   margin-bottom: 1rem;
   color: var(--slate-600);
 }
@@ -523,15 +524,6 @@ a {
 }
 
 @media (min-width: 640px) {
-  .header__title {
-    margin-bottom: 0;
-  }
-
   .profile {
     flex-direction: row;
   }
-
-  .profile__image-wrapper img {
-    margin: 4rem;
-  }
-}
