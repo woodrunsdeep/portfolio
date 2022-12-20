@@ -161,6 +161,22 @@ a {
   border-radius: 50%;
 }
 
+.profile__image-wrapper {
+	position: relative;
+	align-self: center;
+  }
+
+.profile__location {
+	position: absolute;
+	top: 8px;
+	background-color: white;
+	border-radius: 25px;
+	right: 0px;
+	padding: 0.2em 0.5rem;
+	border: 2px solid coral;
+	margin: 0;
+}
+
 .profile__card {
   display: flex;
   flex-direction: column;
