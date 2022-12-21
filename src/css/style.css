@@ -237,18 +237,18 @@ a {
 }
 
 .profile__text--highlight {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 1.2rem;
   color: var(--amber-600);
 }
 
 .profile__text--emphasis {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 1.125rem;
 }
 
 .profile__link {
-  font-weight: bold;
+  font-weight: 700;
   text-decoration: underline;
 }
 
