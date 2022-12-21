@@ -1,10 +1,10 @@
 <section class="projects">
-  <h2 class="projects__heading">
+	<h2 class="projects__heading">
 		<a href="/projects">Проекты</a>
 	</h2>
-  <div class="project-grid">
-    {% asyncEach project in collections.projects %}
-		{% include "project-card.njk" %}
-	{% endeach %}
-  </div>
+	<div class="project-grid">
+		{% asyncEach project in collections.projects %}
+			{% include "project-card.njk" %}
+		{% endeach %}
+	</div>
 </section>
