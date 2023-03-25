@@ -4,9 +4,13 @@ layout: "base.njk"
 
 <div class="project">
 	<h2 class="project__heading">{{ title }}</h2>
-	<div class="project__image-wrapper">
-    	{% EleventyImage image, imageAlt, "(min-width: 30em) 50vw, 100vw" %}
-	</div>
+	<ul class="project__showreel">
+		{% for item in showreel %}
+			<li class="project__showreel-item">
+    			{% EleventyImage item, "", "(min-width: 30em) 50vw, 100vw" %}
+			</li>
+		{% endfor %}
+	</ul>
 	<div class="project__content prose">
     	{{ content | safe }}
 	</div>

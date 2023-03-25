@@ -1,7 +1,7 @@
 ---
 title: "Technomart"
 summary: "Мой первый учебный проект в HTML Academy. Верстка фиксированного макета без использования сборщиков с небольшим интерактивом на нативном JS."
-image: "/images/technomart.png"
+image: "/images/technomart/main-screen.png"
 imageAlt: "Скриншот сайта Technomart"
 tech:
   - "HTML"
@@ -11,6 +11,9 @@ tech:
 siteUrl: "https://woodrunsdeep-technomart.netlify.app"
 repoUrl: "#"
 github: "https://github.com/woodrunsdeep/technomart"
+showreel:
+ - "/images/technomart/main-screen.png"
+ - "/images/technomart/catalog-screen.png"
 ---
 
 ### Что сделано

@@ -1,7 +1,7 @@
 ---
 title: "Cat Energy"
 summary: "Второй учебный проект в рамках курса на HTML Academy, после которого я продолжил его улучшение и расширил функционал."
-image: "/images/cat-energy.png"
+image: "/images/cat-energy/main-screen-mobile.png"
 imageAlt: "Скриншот сайта Cat Energy"
 tech:
   - "11ty"
@@ -11,6 +11,10 @@ tech:
 siteUrl: "https://woodrunsdeep-cat-energy.netlify.app"
 repoUrl: "#"
 github: "https://github.com/woodrunsdeep/cat-energy"
+showreel:
+  - "/images/cat-energy/main-screen-mobile.png"
+  - "/images/cat-energy/catalog-screen-mobile.png"
+  - "/images/cat-energy/form-screen-mobile.png"
 ---
 
 ### Что сделано
