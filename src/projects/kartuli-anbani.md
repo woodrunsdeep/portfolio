@@ -1,7 +1,7 @@
 ---
 title: "Kartuli Anbani"
 summary: "Приложение для изучения грузинского алфавита. Реализован базовый функционал, занимаюсь его расширением и улучшением. Проект на стадии разработки."
-image: "/images/kartuli-anbani/mobile-main-light-radio-9-en_iphone13midnight_portrait.png"
+image: "/images/kartuli-anbani/mobile-main-light-radio-9-en.png"
 imageAlt: "Скриншот сайта Kartuli Anbani"
 isFeatured: true
 tech:
