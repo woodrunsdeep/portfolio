@@ -11,7 +11,7 @@ tech:
   - "Swiper.js"
 siteUrl: "https://deploy-preview-1--woodrunsdeep-kartuli-anbani.netlify.app/"
 repoUrl: "#"
-github: "https://github.com/woodrunsdeep/kartuli-anbani"
+github: "https://github.com/woodrunsdeep/kartuli-anbani/tree/new-version"
 showreel:
   - "/images/kartuli-anbani/mobile-main-light-radio-9-en.png"
   - "/images/kartuli-anbani/mobile-settings-light-en.png"
